@@ -2,13 +2,26 @@
   background-color: black;
 }
 
-.wd-border-tuit {
-  display:flex;
+.wd-border-header {
+  display: flex;
   flex-direction: column;
   padding: 12px 16px 12px 16px;
   border-color: lightgray;
   border-width: 1px;
   border-style: solid;
+}
+
+.wd-border-tuit {
+  display: flex;
+  padding: 12px 16px 12px 16px;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.wd-body-area {
+  padding-left : 12px;
+  flex-direction: column;
 }
 
 .wd-bookmark-title {
@@ -19,4 +32,82 @@
 .wd-user-handle {
   color:lightgray;
   font-size: 13px;
+}
+
+.wd-profile-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.wd-name-handle {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.wd-handle {
+  color: lightgray;
+}
+
+.wd-content {
+  color: white;
+  font-size: 15px;
+  max-width: 506px;
+  padding-bottom: 12px;
+}
+
+.wd-news-image {
+  width: 504px;
+  height: 264px;
+  border-bottom-color: lightgray;
+  border-bottom-style: solid;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.wd-text-container {
+  width: 480px;
+  padding: 12px;
+}
+
+.wd-bold-title {
+  color:white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.wd-gray-text {
+  color:lightgray;
+  font-size: 15px;
+}
+
+.wd-content-container {
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+}
+
+.wd-interactions {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.wd-icon-gray {
+  padding-right: 5px;
+  font-size: 15px;
+  color: lightgray;
+}
+
+.wd-icon-red {
+  padding-right:5px;
+  font-size: 15px;
+  color: red;
+}
+
+.wd-icon-a {
+  text-decoration-line: none;
 }
