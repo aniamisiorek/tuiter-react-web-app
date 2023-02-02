@@ -1,0 +1,22 @@
+.wd-main-content {
+  background-color: black;
+}
+
+.wd-border-tuit {
+  display:flex;
+  flex-direction: column;
+  padding: 12px 16px 12px 16px;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.wd-bookmark-title {
+  color: white;
+  font-size: 20px;
+}
+
+.wd-user-handle {
+  color:lightgray;
+  font-size: 13px;
+}
