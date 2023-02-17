@@ -1,164 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Explore</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-        rel="stylesheet"/>
+  <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
   <link href="index.css" rel="stylesheet"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        rel="stylesheet"/>
+  <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+          integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+          crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <title>Explore screen</title>
 </head>
 <body>
-<div class="container">
-  <div class="row">
-    <div class="col-12 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2 mt-1">
-      <div class="list-grou p text-left">
-        <a href="" class="list-group-item list-group-item-action">
-          <i class="fab fa-twitter text-14"></i></a>
-        <a href="" class="list-group-item list-group-item-action">
-          <span><i class="fa fa-home text-14"></i><span
-              class="d-none d-xl-inline ms-2">Home</span></span></a>
-        <a href="" class="list-group-item list-group-item-action active">
-          <span><i class="fa fa-hashtag text-14"></i><span
-              class="d-none d-xl-inline ms-2">Explore</span></span></a>
-        <a href="" class="list-group-item list-group-item-action">
-          <span><i class="fa fa-bell text-14"></i><span
-              class="d-none d-xl-inline ms-2">Notifications</span></span></a>
-        <a href="" class="list-group-item list-group-item-action">
-          <span><i class="fa fa-envelope text-14"></i><span
-              class="d-none d-xl-inline ms-2">Messages</span></span></a>
-        <a href="" class="list-group-item list-group-item-action">
-          <span><i class="fa fa-bookmark text-14"></i><span
-              class="d-none d-xl-inline ms-2">Bookmarks</span></span></a>
-        <a href="" class="list-group-item list-group-item-action">
-          <span><i class="fa fa-list text-14"></i><span
-              class="d-none d-xl-inline ms-2">Lists</span></span></a>
-        <a href="" class="list-group-item list-group-item-action">
-          <span><i class="fa fa-user text-14"></i><span
-              class="d-none d-xl-inline ms-2">Profile</span></span></a>
-        <a href="" class="list-group-item list-group-item-action">
-          <span><i class="fa fa-ellipsis-h text-14"></i><span
-              class="d-none d-xl-inline ms-2">More</span></span></a>
-      </div>
-      <button class="btn btn-primary rounded-pill w-100 mt-2 ps-1">Tweet</button>
-    </div>
 
-    <div class="col-12 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6 mt-1 mb-1">
-      <div class="form-group has-search d-flex mb-2 align-items-center">
-        <span class="fa fa-search position-absolute ps-3"></span>
-        <input type="text" class="form-control rounded-pill ps-5" placeholder="Search Twitter">
-        <i class="fa fa-cog ps-2 text-primary text-24"></i>
-      </div>
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" href="for-you.html">For you</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="trending.html">Trending</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="news.html">News</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="sports.html">Sports</a>
-        </li>
-        <li class="nav-item d-none d-md-block">
-          <a class="nav-link" href="entertainment.html">Entertainment</a>
-        </li>
-      </ul>
-      <div class="position-relative mt-1 text-white">
-        <img class="w-100" src="spaceship.webp">
-        <div class="position-absolute fw-bold img-text">SpaceX's Starship</div>
-      </div>
-      <ul class="list-group">
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-1 me-auto">
-            <div class="text-secondary">Web Development</div>
-            <div class="fw-bold">ReactJS <i class="fas fa-check-circle"></i><span class="fw-normal text-secondary"> - 2h</span></div>
-            <div class="fw-bold">
-              React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs
-            </div>
-          </div>
-          <img class="align-self-center ms-3" src="react.png" height="90">
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-1 me-auto">
-            <div class="fw-bold">Javascript <i class="fas fa-check-circle"></i><span class="fw-normal text-secondary"> - 2h</span></div>
-            <div class="fw-bold">
-              Javascript is programming language that can run on browsers as well as desktops
-            </div>
-            <div class="text-secondary">123K Tweets</div>
-          </div>
-          <img class="align-self-center rounded ms-3" src="javascript.png" height="90">
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-1 me-auto">
-            <div class="text-secondary">Web Development</div>
-            <div class="fw-bold">jQuery</div>
-            <div class="text-secondary">123K Tweets</div>
-          </div>
-          <img class="align-self-center rounded ms-3" src="jquery.png" height="90">
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-1 me-auto">
-            <div class="text-secondary">Web Development</div>
-            <div class="fw-bold">NodeJS <i class="fas fa-check-circle"></i><span class="fw-normal text-secondary"> - 2h</span></div>
-            <div class="text-secondary">123K Tweets</div>
-          </div>
-          <img class="align-self-center rounded ms-3" src="node.png" height="90">
-        </li>
-      </ul>
-    </div>
+<div class="container" id="wd-explore"></div>
+<script src="index.js" type="module"></script>
 
-    <div class="col-12 d-none d-lg-block col-lg-4 col-xl-4 col-xxl-4 mt-1">
-      <ul class="list-group">
-        <li class="list-group-item d-flex justify-content-between align-items-start fw-bold">
-          Who to Follow
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <img class="rounded-circle align-self-center" src="java.png" height="40">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold">Java <i class="fas fa-check-circle"></i></div>
-            @Java
-          </div>
-          <button class="btn btn-primary rounded-pill align-self-center">Follow</button>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <img class="rounded-circle align-self-center" src="rs.avif" height="40">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold text-nowrap">Relativity Space <i class="fas fa-check-circle"></i></div>
-            @relativityspace
-          </div>
-          <button class="btn btn-primary rounded-pill align-self-center">Follow</button>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <img class="rounded-circle align-self-center" src="virgin.svg" height="40">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold">Virgin Galactic <i class="fas fa-check-circle"></i></div>
-            @virgingalactic
-          </div>
-          <button class="btn btn-primary rounded-pill align-self-center">Follow</button>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <img class="rounded-circle align-self-center" src="nasa.webp" height="40">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold">NASA <i class="fas fa-check-circle"></i></div>
-            @NASA
-          </div>
-          <button class="btn btn-primary rounded-pill align-self-center">Follow</button>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <img class="rounded-circle align-self-center" src="tesla.svg.png" height="40">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold">Tesla <i class="fas fa-check-circle"></i></div>
-            @Tesla
-          </div>
-          <button class="btn btn-primary rounded-pill align-self-center">Follow</button>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
 </body>
 </html>
