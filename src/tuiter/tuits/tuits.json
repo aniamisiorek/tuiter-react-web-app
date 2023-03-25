@@ -1,0 +1,44 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "space-x.jpeg",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 987,
+    "handle": "@SpaceX",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 123,
+    "topic": "Web Development",
+    "userName": "Java",
+    "time": "2h",
+    "title": "Eclipse Java downloads skyrocket",
+    "image": "java.png",
+    "liked": false,
+    "replies": 43,
+    "retuits": 56,
+    "likes": 234,
+    "handle": "@java",
+    "tuit": "Move over, Oracle Java. Downloads of the Eclipse Foundation’s Temurin Java SE binaries have more than doubled year over year, to more than 12 million downloads per month, Eclipse said on March 14."
+  },
+  {
+    "_id": 765,
+    "topic": "Cars",
+    "userName": "Tesla",
+    "time": "1h",
+    "title": "Two Canadian motorists unknowingly open wrong Teslas and are allowed to drive away",
+    "image": "tesla.svg.png",
+    "liked": true,
+    "replies": 2,
+    "retuits": 10,
+    "likes": 34,
+    "handle": "@tesla",
+    "tuit": "A pair of Canadian Tesla owners accidentally climbed into the wrong cars before their apps allowed them to drive away in lookalike vehicles, they said Tuesday. Rajesh Randev, 51, an immigration consultant from Vancouver, used his app to get in his 2021 Tesla Model 3 — or so he thought — about 2:30 p.m. March 7 and went to pick up his two children from school, he said."
+  }
+]
