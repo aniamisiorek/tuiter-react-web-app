@@ -37,12 +37,15 @@ const tuitsSlice = createSlice({
       })
     },
     likesToggle(state, action) {
-      const index = state.
-      findIndex(tuit =>
-          tuit._id === action.payload._id)
-      console.log(index)
-      const newArray = [...state.initialState];
-      newArray[index].liked = !newArray[index].liked
+      const tuit = state
+      .find((tuit) =>
+          tuit._id === action.payload);
+      if (tuit.liked) {
+        tuit.likes = tuit.likes - 1
+      } else {
+        tuit.likes = tuit.likes + 1
+      }
+      tuit.liked = !tuit.liked
     }
   }
 });
