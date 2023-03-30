@@ -12,7 +12,7 @@ const NavigationSidebar = () => {
   return (
       <div className="list-group">
         <a className="list-group-item">Tuiter</a>
-        <NavLink to="/tuiter" end className={`list-group-item`}>
+        <NavLink to="/tuiter/" end className={`list-group-item`}>
           <FontAwesomeIcon icon={faHome}/><span
             className="d-none d-xl-inline ms-2">Home</span>
         </NavLink>
